@@ -1,0 +1,9 @@
+services:
+  weather-app:
+   build:
+    context: {$PROJECT_ROOT}
+    image: {PROJECT_ROOT}/cmd/test/Dockerfile
+  container-name: weather-app
+  ports: 
+    - "8081:8080"
+  restart: always

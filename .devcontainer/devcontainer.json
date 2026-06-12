@@ -1,0 +1,4 @@
+{
+	"name": "Go devcontainer",
+	"image": "mcr.microsoft.com/devcontainers/go:1.25-bookworm"
+}
